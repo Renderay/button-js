@@ -9,9 +9,9 @@ var gHours = day.getHours();
 
 button.onclick = function () {
 if (i == 1) {
-alert("Вы нажали на кнопку\r\n" + day);
+alert("Вы нажали на кнопку.\r\n" + day);
 i++;
 } else {
-  alert("Вы уже нажали на кнопку\r\n" + day);
+  alert("Вы уже нажали на кнопку, хватит!\r\n" + day);
 }
 }
