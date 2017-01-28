@@ -1,4 +1,5 @@
 var button = document.getElementById("button");
+var text = document.getElementById("text");
 var i = 1;
 var Data = new Date();
 var Month = Data.getMonth();
@@ -42,6 +43,6 @@ if (i == 1) {
 alert("Вы нажали на кнопку.\r\n" +fDay+" "+Day+" "+fMonth+" "+Hour+":"+Minutes+":"+Seconds);
 i++;
 } else {
-  alert("Вы уже нажали на кнопку, хватит!\r\n" +fDay+" "+Day+" "+fMonth+" "+Hour+":"+Minutes+":"+Seconds);
+document.write("Вы уже нажали на кнопку, хватит!\r\n" +fDay+" "+Day+" "+fMonth+" "+Hour+":"+Minutes+":"+Seconds);
 }
 }
