@@ -3,9 +3,7 @@ var i = 1;
 var Data = new Date();
 var Month = Data.getMonth();
 var Day = Data.getDate();
-
 var DAy = Data.getDay();
-
 var Hour = Data.getHours();
 var Minutes = Data.getMinutes();
 var Seconds = Data.getSeconds();
